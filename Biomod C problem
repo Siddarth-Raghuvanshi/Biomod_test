@@ -1,0 +1,23 @@
+# A fibonacci sequence program
+
+
+#include <stdio.h>
+
+int main (void){
+
+	int n;
+	int Sequence[n];
+	Sequence[1] = 1;
+	sequence[2] = 1;
+
+	for(i = 0; i < n; n++){
+
+		Sequence[i] = Sequence[i-1] + Sequence[i-2];
+
+	}
+
+	printf("%d/n",Sequence);
+
+	return 0
+
+}
